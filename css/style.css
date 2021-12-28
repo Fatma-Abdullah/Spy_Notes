@@ -3147,7 +3147,7 @@ ol {
   .video h4{
 	  color: #fff;
   }
-  .video a{
+  .video a#play-video-btn{
 	margin-top: 67px;
   }
   /* ----------------end video---------------------------- */
@@ -3250,5 +3250,9 @@ ol {
 	}
 	.pricing__item h3 {
 		padding: 10px 0 10px;
-	}		
+	}	
+	.video {
+		padding-top: 95px;
+		padding-bottom: 0;
+	}	
 }

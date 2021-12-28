@@ -140,14 +140,14 @@
                                 <!-- <a href="#" class="primary-btn">Get started now</a> -->
                             </div>
                             <div class="video d-flex" data-aos="fade-up">
-                                <a id="play-video" class="video-play-button" href="#">
+                                <a id="play-video-btn" class="video-play-button" href="#video">
                                     <span></span>
                                 </a>
-                                <h4> See how we work</h4>
-
+                             <a  href="#video"> <h4> See how we work</h4> </a>   
+<!-- 
                                 <div id="video-overlay" class="video-overlay">
                                     <a class="video-overlay-close">&times;</a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="col-lg-6 canvasContainer">
@@ -523,7 +523,7 @@
                         <a href="#" class="primary-btn" data-aos="fade-down" data-aos-duration="4000">Get start now</a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-6" id="video">
                     <iframe class="videoFrame pulse" height="400" style="width:100%" src="https://www.youtube.com/embed/J_FDgdhUz5Y"
                         allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
                 </div>
@@ -767,7 +767,9 @@
                 <div class="col-lg-6">
                     <div class="question__accordin">
                         <div class="accordion" id="accordionExample">
-                            <div class="card">
+                            <div class="card" data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500">
                                 <div class="card-heading active">
                                     <a class="active" data-toggle="collapse" data-target="#collapseOne">
                                         Can I try before I buy?
@@ -779,7 +781,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500">
                                 <div class="card-heading">
                                     <a data-toggle="collapse" data-target="#collapseTwo">
                                         Do you sell custom source ?
@@ -799,7 +803,9 @@
                     <div class="question__accordin">
                         <div class="accordion" id="accordionExample">
 
-                            <div class="card">
+                            <div class="card" data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500">
                                 <div class="card-heading">
                                     <a data-toggle="collapse" data-target="#collapseThree">
                                         What payment methods do you accept?
@@ -811,7 +817,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500">
                                 <div class="card-heading">
                                     <a data-toggle="collapse" data-target="#collapseFour">
                                         Do you have special services ?
@@ -841,7 +849,9 @@
                         <h3>We Were Featured By</h3>
                     </div>
 
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center" data-aos="zoom-in-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                         <img src="./img/clients.png" alt="">
                     </div>
                 </div>
@@ -906,25 +916,25 @@
         AOS.init();
       </script>
     <script>
-        $('.video-play-button').on('click', function (e) {
-            debugger
-            e.preventDefault();
-            $('.video-overlay').addClass('open');
-            $(".video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/ngElkyQ6Rhs" frameborder="0" allowfullscreen></iframe>');
-        });
+        // $('.video-play-button').on('click', function (e) {
+        //     debugger
+        //     e.preventDefault();
+        //     $('.video-overlay').addClass('open');
+        //     $(".video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/ngElkyQ6Rhs" frameborder="0" allowfullscreen></iframe>');
+        // });
 
-        $('.video-overlay, .video-overlay-close').on('click', function (e) {
-            e.preventDefault();
-            close_video();
-        });
+        // $('.video-overlay, .video-overlay-close').on('click', function (e) {
+        //     e.preventDefault();
+        //     close_video();
+        // });
 
-        $(document).keyup(function (e) {
-            if (e.keyCode === 27) { close_video(); }
-        });
+        // $(document).keyup(function (e) {
+        //     if (e.keyCode === 27) { close_video(); }
+        // });
 
-        function close_video() {
-            $('.video-overlay.open').removeClass('open').find('iframe').remove();
-        };
+        // function close_video() {
+        //     $('.video-overlay.open').removeClass('open').find('iframe').remove();
+        // };
 
 
         $(document).ready(function () {
