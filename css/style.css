@@ -3265,7 +3265,7 @@ ol {
 		padding: 15px;
 	}
 	.txtDiv {
-		text-align: center;
+		text-align: center !important;
 	}
 }
 /* -----new features------- */
