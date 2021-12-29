@@ -3255,6 +3255,18 @@ ol {
 		padding-top: 95px;
 		padding-bottom: 0;
 	}	
+	.pricing-section {
+		padding-top: 60px !important;
+	}
+	section.choose-plan-section.spad img {
+		margin-top: 35px;
+	}
+	.iconDiv {
+		padding: 15px;
+	}
+	.txtDiv {
+		text-align: center;
+	}
 }
 /* -----new features------- */
 .feature__item{
