@@ -181,28 +181,50 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="feature__item" data-aos="fade-up"
                     data-aos-duration="1000">
-                        <span class="fa fa-smile-o"></span>
-                        <h5>Smile </h5>
-                        <p>To spy anywhere and anythings ( Camera Live , Record mic , Make & record a call , Explore
-                            files ,etc ) . </p>
+                      <div class="row">
+                          <div class="col-sm-3 iconDiv">
+                            <span class="fa fa-smile-o"></span>
+                          </div>
+                          <div class="col-sm-9 txtDiv">
+                            <h5>Smile </h5>
+                            <p>To spy anywhere and anythings ( Camera Live , Record mic , Make & record a call , Explore
+                                files ,etc ) . </p>
+                          </div>
+                      </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="feature__item" data-aos="fade-up"
                     data-aos-duration="2000">
-                        <span class="fa fa-lightbulb-o"></span>
+                    <div class="row">
+                        <div class="col-sm-3 iconDiv">
+                          <span class="fa fa-lightbulb-o"></span>
+                        </div>
+                        <div class="col-sm-9 txtDiv">
+                            <h5>Customize</h5>
+                            <p>The program is great and easy to use, works on all versions of Android devices and without
+                                need for a ROOT. </p>
+                        </div>
+                    </div>
+                        <!-- <span class="fa fa-lightbulb-o"></span>
                         <h5>Customize</h5>
                         <p>The program is great and easy to use, works on all versions of Android devices and without
-                            need for a ROOT. </p>
+                            need for a ROOT. </p> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="feature__item" data-aos="fade-up"
                     data-aos-duration="3000">
-                        <span class="fa fa-shield"></span>
-                        <h5>Secure</h5>
+                    <div class="row">
+                        <div class="col-sm-3 iconDiv">
+                          <span class="fa fa-shield"></span>
+                        </div>
+                        <div class="col-sm-9 txtDiv">
+                            <h5>Secure</h5>
                         <p>The software is safe for use on all sides (client or user) as well as free of errors that
                             damage the devices . </p>
+                        </div>
+                    </div>
                     </div>
                 </div>
 
@@ -525,7 +547,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-6" id="video">
-                    <iframe class="videoFrame pulse" height="400" style="width:100%" src="https://www.youtube.com/embed/J_FDgdhUz5Y"
+                    <iframe class="videoFrame" height="400" style="width:100%" src="https://www.youtube.com/embed/J_FDgdhUz5Y"
                         allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
                 </div>
             </div>
@@ -839,26 +861,6 @@
         AOS.init();
       </script>
     <script>
-        // $('.video-play-button').on('click', function (e) {
-        //     debugger
-        //     e.preventDefault();
-        //     $('.video-overlay').addClass('open');
-        //     $(".video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/ngElkyQ6Rhs" frameborder="0" allowfullscreen></iframe>');
-        // });
-
-        // $('.video-overlay, .video-overlay-close').on('click', function (e) {
-        //     e.preventDefault();
-        //     close_video();
-        // });
-
-        // $(document).keyup(function (e) {
-        //     if (e.keyCode === 27) { close_video(); }
-        // });
-
-        // function close_video() {
-        //     $('.video-overlay.open').removeClass('open').find('iframe').remove();
-        // };
-
 
         $(document).ready(function () {
 
@@ -877,10 +879,6 @@
             });
 
         });
-
-
-
-
 
         function randomInRange(min, max) {
     return min + (max - min) * Math.random();
