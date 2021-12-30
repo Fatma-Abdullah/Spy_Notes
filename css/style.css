@@ -110,10 +110,11 @@ ol {
 	bottom: -30px;
 	right: 0;
 	height: 13px;
-	width: 83px;
+	width: 140px;
 	background-image: url(../img/line.png);
 	content: "";
 	margin: 0 auto;
+	background-size: 100% 100%;
 }
 
 .set-bg {
@@ -3385,3 +3386,32 @@ padding-right: 20px;
 			height: 93%;
 		}
 	}
+
+	/* .section-title h3:before {
+		width: 28px;
+		height: 5px;
+		display: block;
+		content: "";
+		position: absolute;
+		bottom: 3px;
+		left: 50%;
+		margin-left: -14px;
+		background-color: #b80000;
+	  }
+	  .section-title h3:after{
+		width: 100px;
+		height: 1px;
+		display: block;
+		content: "";
+		position: relative;
+		margin-top: 25px;
+		left: 50%;
+		margin-left: -50px;
+		background-color: #b80000;
+		background: none;
+	  }
+	   */
+
+	   .hero__item .video{
+		   padding-bottom: 0;
+	   }
