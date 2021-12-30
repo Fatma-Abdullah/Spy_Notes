@@ -3208,66 +3208,7 @@ ol {
 .canvasContainer{
 	padding-top:80px
 }
-@media only screen and (min-width: 1200px){
-.hero__item .container {
-    max-width: 1349px;
-}}
 
-.header__menu ul li a:hover{
-	color: #1c80df;
-}
-@media only screen and (max-width: 767px){
-	.hero__item {
-		padding-top: 55px;
-		padding-bottom: 0;
-	}
-	.offcanvas__logo a {
-		/* color: #000; */
-		font-weight: bold;
-	}
-	.offcanvas__menu__wrapper{
-		background: #3C4154;
-	}
-	.video-play-button:after {
-		width: 70px;
-		height: 70px;
-	}
-	.section-title h3 {
-		font-size: 22px;
-		margin-top: 6px;
-	}
-	.hosting__text .nav-tabs .nav-item .nav-link h5 {
-		font-size: 16px;
-	}
-	.video a.primary-btn {
-		margin: 10px 0 20px 0;
-	}	
-	.spad {
-		padding-top: 10px;
-	}
-	.pricing__item {
-		margin-bottom: 20px;
-	}
-	.pricing__item h3 {
-		padding: 10px 0 10px;
-	}	
-	.video {
-		padding-top: 95px;
-		padding-bottom: 0;
-	}	
-	.pricing-section {
-		padding-top: 60px !important;
-	}
-	section.choose-plan-section.spad img {
-		margin-top: 35px;
-	}
-	.iconDiv {
-		padding: 15px;
-	}
-	.txtDiv {
-		text-align: center !important;
-	}
-}
 /* -----new features------- */
 .feature__item{
     padding: 0 10px;
@@ -3339,7 +3280,6 @@ iframe.videoFrame{
 	/* display: flex; */
 	justify-content: center;
 	align-items: center;
-	height:470px;
   }
   
   .flip-card-back {
@@ -3350,7 +3290,6 @@ iframe.videoFrame{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height:470px;
 
   }
   .paypal img, .allCards img{
@@ -3359,7 +3298,6 @@ iframe.videoFrame{
   }
   .flip-card-inner{
 	height:470px;
-
   }
   .clearfix:after {
 	content:"";
@@ -3376,3 +3314,73 @@ iframe.videoFrame{
   .pricing__item:hover .primary-btn, .pricing__item.active .primary-btn{
 	  cursor: pointer;
   }
+
+  .payingInfo{
+	margin-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+  }
+
+  @media only screen and (min-width: 1200px){
+	.hero__item .container {
+		max-width: 1349px;
+	}}
+	
+	.header__menu ul li a:hover{
+		color: #1c80df;
+	}
+	@media only screen and (max-width: 767px){
+		.hero__item {
+			padding-top: 55px;
+			padding-bottom: 0;
+		}
+		.offcanvas__logo a {
+			/* color: #000; */
+			font-weight: bold;
+		}
+		.offcanvas__menu__wrapper{
+			background: #3C4154;
+		}
+		.video-play-button:after {
+			width: 70px;
+			height: 70px;
+		}
+		.section-title h3 {
+			font-size: 22px;
+			margin-top: 6px;
+		}
+		.hosting__text .nav-tabs .nav-item .nav-link h5 {
+			font-size: 16px;
+		}
+		.video a.primary-btn {
+			margin: 10px 0 20px 0;
+		}	
+		.spad {
+			padding-top: 10px;
+		}
+		.pricing__item {
+			margin-bottom: 20px;
+		}
+		.pricing__item h3 {
+			padding: 10px 0 10px;
+		}	
+		.video {
+			padding-top: 95px;
+			padding-bottom: 0;
+		}	
+		.pricing-section {
+			padding-top: 60px !important;
+		}
+		section.choose-plan-section.spad img {
+			margin-top: 35px;
+		}
+		.iconDiv {
+			padding: 15px;
+		}
+		.txtDiv {
+			text-align: center !important;
+		}
+		.flip-card-back {
+			height: 93%;
+		}
+	}
